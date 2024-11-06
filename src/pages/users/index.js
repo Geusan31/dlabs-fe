@@ -1,11 +1,11 @@
-// Menampilkan komponen Pengguna dalam layout yang telah ditentukan
+// Mengimpor Layout dan Fetch User dari api public github untuk digunakan di halaman api users
+import FetchUsers from "@/components/fetchUser/fetch_user";
 import Layout from "@/components/layout";
-import Pengguna from "@/components/pengguna";
 
 export default function Home() {
   return (
     <>
-      <Pengguna /> {/* Menampilkan daftar pengguna */}
+      <FetchUsers /> {/* Menampilkan komponen fetch users */}
     </>
   );
 }
