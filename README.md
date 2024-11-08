@@ -1,13 +1,13 @@
 # Pengelolaan Data Pengguna
 
-Proyek ini adalah aplikasi web untuk mengelola daftar pengguna, termasuk fungsi untuk menambah, mengedit, menghapus, serta menyaring dan menyortir data pengguna. Aplikasi ini juga mengambil data pengguna dari API GitHub untuk ditampilkan di halaman terpisah.
+Proyek ini adalah aplikasi web untuk mengelola daftar pengguna, termasuk fungsi untuk menambah, mengedit, menghapus, serta menyaring dan menyortir data pengguna. Aplikasi ini juga mengambil data pengguna dari API GitHub untuk ditampilkan.
 
 ## Fitur Utama
 
 - **CRUD Pengguna**: Pengguna dapat ditambah, diedit, dan dihapus.
 - **Sort dan Filter**: Data dapat disortir berdasarkan nama, umur, atau status keanggotaan. Pengguna juga bisa memfilter berdasarkan status.
 - **Loading State**: Aplikasi menampilkan efek loading saat data sedang diambil dari `localStorage` atau API.
-- **API Integration**: Mengambil data pengguna dari API GitHub dan menampilkannya di halaman terpisah.
+- **API Integration**: Mengambil data pengguna dari API GitHub.
 
 ## Prasyarat
 
@@ -45,4 +45,4 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi ini di lingkungan lokal
    npm run dev
    ```
 
-Perintah ini akan menjalankan aplikasi pada http://localhost:3000.
+   Perintah ini akan menjalankan aplikasi pada http://localhost:3000.
